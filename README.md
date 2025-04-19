@@ -1,9 +1,12 @@
 # Clone of GTTM Dataset
 I wanna get GTTM data via API, so I created it.
 
-_[Song list of GTTM database](https://clone-of-gttm-database.vercel.app/api/list)_
+_[Song list of GTTM database](https://clone-of-gttm-database.vercel.app)_
 
 # Usage
+- Get List of GTTM database
+  - `https://clone-of-gttm-database.vercel.app/api/list`
+
 - Get MusicXML score:
   - `https://clone-of-gttm-database.vercel.app/api/MSC?tune=01`
   - `https://clone-of-gttm-database.vercel.app/api/TS?tune=267`
