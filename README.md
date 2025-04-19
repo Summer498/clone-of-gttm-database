@@ -1,6 +1,6 @@
 # Clone of GTTM Dataset
-[GTTM database](https://gttm.jp/gttm/database/) is created by M. Hamanaka
-I wanna get GTTM data via API, so I created it.
+[GTTM database](https://gttm.jp/gttm/database/) is created by M. Hamanaka.
+This API is to get GTTM data as JSON.
 
 _[Song list of GTTM database](https://clone-of-gttm-database.vercel.app)_
 
