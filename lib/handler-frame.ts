@@ -10,7 +10,7 @@ export const handlerFrame = (mode:string) => (
 
   const { tune } = req.query;
   readFile(
-    `/example/${tune}/${mode}-${tune}.xml`,
+    `example/${tune}/${mode}-${tune}.xml`,
     "utf8",
     sendXMLasJSON(res)
   )
