@@ -6,7 +6,7 @@ export const handlerFrame = (mode:string) => (
   req: NextApiRequest,
   res: NextApiResponse<object | undefined>
 ) => {
-  res.setHeader("Content-Type", "application/json; charaset=utf-8");
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
 
   const { tune } = req.query;
   readFile(
