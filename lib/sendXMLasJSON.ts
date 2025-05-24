@@ -6,7 +6,7 @@ export const sendXMLasJSON = (res: NextApiResponse<object | undefined>) => (
   data: string
 ) => {
   if (err) {
-    res.status(500).json(undefined)
+    res.status(500).json(err)
     return
   }
   const json = xml_parser.parse(data);
